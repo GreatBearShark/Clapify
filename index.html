@@ -16,6 +16,11 @@
     margin-top: 2%;
     margin-bottom: 2%;
   }
+  #outputClapify {
+    border-style: solid;
+    border-width: 1px;
+    min-height: 20vh;
+  }
 </style>
 
 <body>
@@ -28,15 +33,15 @@
     <div class="row">
       <div class="col-sm-12">
           <form id="form">
-            <label for="exampleTextarea"><h2>Input:</h2></label>
-            <textarea class="form-control" id="inputClapify" rows="3"></textarea>
+            <label for="exampleTextarea"><h2></h2></label>
+            <textarea class="form-control-lg col-lg-12" id="inputClapify" rows="2" placeholder="Enter Text to Clap"></textarea>
             <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit"><h2>Clap</h2></button>
           </form>
       </div>
     </div>
     <div class="row">
             <div class="col-sm-12">
-          <label for="exampleTextarea"><h2>Output:</h2></label>
+          <label for="exampleTextarea"><h2>Result:</h2></label>
           <h2><div id="outputClapify">
           </div></h2>
       </div>
