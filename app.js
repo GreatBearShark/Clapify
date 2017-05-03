@@ -5,6 +5,6 @@ var outputClapify = document.getElementById("outputClapify");
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   var output = inputClapify.value.replace(/ /g , ' \&#128079 ');
-  outputClapify.value = output;
+  outputClapify.innerHTML = output;
 }
 );
