@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<title>Clapify</title>
+<meta charset="utf-8">
+</head>
+<style>
+  button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+</style>
+
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 offset-md-2">
+      <h1>Clapify &#128079</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+          <form id="form">
+            <label for="exampleTextarea"><h2>Input:</h2></label>
+            <textarea class="form-control" id="inputClapify" rows="3"></textarea>
+            <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit"><h2>Clap</h2></button>
+          </form>
+      </div>
+    </div>
+    <div class="row">
+            <div class="col-sm-12">
+          <label for="exampleTextarea"><h2>Output:</h2></label>
+          <h2><div id="outputClapify">
+          </div></h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
