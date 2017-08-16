@@ -16,7 +16,7 @@
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  #outputClapify {
+  #outputClapify, #outputWave, #outputB {
     border-style: solid;
     border-width: 1px;
     min-height: 20vh;
@@ -25,26 +25,78 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 offset-md-2">
-      <h1>Clapify &#128079</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-          <form id="form">
-            <label for="exampleTextarea"><h2></h2></label>
-            <textarea class="form-control-lg col-lg-12" id="inputClapify" rows="2" placeholder="Enter Text to Clap"></textarea>
-            <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit"><h2>Clap</h2></button>
-          </form>
-      </div>
-    </div>
-    <div class="row">
-            <div class="col-sm-12">
-          <label for="exampleTextarea"><h2>Result:</h2></label>
-          <h2><div id="outputClapify">
-          </div></h2>
-      </div>
+  	<div class="row">
+	  <div class="col-sm-12 col-md-4">
+	  	<div class="row">
+	      <div class="col-sm-6">
+	      <h1>Clapify &#128079</h1>
+	      </div> 
+	    </div>
+	    <div class="row">
+	      <div class="col-sm-12">
+	          <form id="form">
+	            <label for="exampleTextarea"><h2></h2></label>
+	            <textarea class="form-control-lg col-lg-12" id="inputClapify" rows="2" placeholder="Enter Text to Clap"></textarea>
+	            <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit"><h2>Clap</h2></button>
+	          </form>
+	      </div>
+	    </div>
+	    <div class="row">
+	            <div class="col-sm-12">
+	          <label for="exampleTextarea"><h2>Result:</h2></label>
+	          <h2><div id="outputClapify">
+	          </div></h2>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-sm-12 col-md-4">
+	  	<div class="row">
+	      <div class="col-sm-6">
+	      <h1>W A V E Y</h1>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-sm-12">
+	          <form id="wave-form">
+	            <label for="exampleTextarea"><h2></h2></label>
+	            <textarea class="form-control-lg col-lg-12" id="inputWave" rows="2" placeholder="Enter Text to E M P H A S I Z E"></textarea>
+	            <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit-2"><h2>E N D  M E</h2></button>
+	          </form>
+	      </div>
+	    </div>
+	    <div class="row">
+	            <div class="col-sm-12">
+	          <label for="exampleTextarea"><h2>Result:</h2></label>
+	          <h2><div id="outputWave">
+	          </div></h2>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-sm-12 col-md-4">
+	  	<div class="row">
+	      <div class="col-sm-6">
+	      <h1>Deadass 🅱</h1>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-sm-12">
+	          <form id="b-form">
+	            <label for="exampleTextarea"><h2></h2></label>
+	            <textarea class="form-control-lg col-lg-12" id="inputB" rows="2" placeholder="🅱ickin 🅱ack 🅱ein 🅱ool"></textarea>
+	            <button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg btn-block" id="submit-3"><h2>🅱ool Out</h2></button>
+	          </form>
+	      </div>
+	    </div>
+	    <div class="row">
+	            <div class="col-sm-12">
+	          <label for="exampleTextarea"><h2>Result:</h2></label>
+	          <h2><div id="outputB">
+	          </div></h2>
+	      </div>
+	    </div>
+	  </div>
     </div>
   </div>
 
